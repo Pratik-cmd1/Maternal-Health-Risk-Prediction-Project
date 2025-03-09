@@ -1,0 +1,79 @@
+Business Problem:
+
+Healthcare systems struggle to identify and prioritize high-risk pregnancies, leading to preventable complications and higher maternal mortality rates. By building a reliable prediction model, we can help doctors identify risks early, provide timely care, and improve outcomes for mothers and babies. This will save lives and make healthcare more efficient.
+
+Problem Statement:
+
+Maternal health risks during pregnancy can lead to severe complications or even death if not identified early. Current methods often fail to predict these risks accurately, especially in resource-limited settings. The goal is to use machine learning to predict maternal health risk levels (Low, Medium, High) based on factors like Age, SystolicBP, DiastolicBP, BS,BodyTemp,HeartRate,RiskLevel,Hemoglobin,BMI,Parity,SmokingStatus,PhysicalActivityLevel
+
+
+
+Normal Criteria for Each Parameter :
+
+1] Age:
+
+Risk increases with age, especially after 55 for women. Young individuals (e.g., <40 years) are typically at lower risk unless other factors are abnormal.
+
+2] Systolic Blood Pressure (SystolicBP):
+
+Normal: 90–120 mmHg Elevated: 121–129 mmHg High (Hypertension Stage 1): 130–139 mmHg High (Hypertension Stage 2): ≥140 mmHg
+
+3] Diastolic Blood Pressure (DiastolicBP):
+
+Normal: 60–80 mmHg Elevated: 81–89 mmHg High: ≥90 mmHg
+
+4] Blood Sugar (BS) (Fasting Glucose Levels):
+
+Normal: 70–99 mg/dL Pre-diabetes: 100–125 mg/dL Diabetes: ≥126 mg/dL
+
+5] Body Temperature (BodyTemp):
+
+Normal: 97°F–99°F (36.1°C–37.2°C) Fever (>100.4°F or 38°C) could indicate infection or inflammation.
+
+6] Heart Rate:
+
+Normal Resting Heart Rate: 60–100 beats per minute (bpm) Lower (<60 bpm) in athletes or due to certain medications. Higher (>100 bpm) indicates tachycardia, which may signal risk.
+
+7] Hemoglobin:
+
+Normal Levels: Men: 13.8–17.2 g/dL Women: 12.1–15.1 g/dL Children: 11.1–16.1 g/dL Low hemoglobin indicates anemia; high levels could suggest other health issues.
+
+8] Body Mass Index (BMI):
+
+Underweight: <18.5 Normal Weight: 18.5–24.9 Overweight: 25–29.9 Obese: ≥30
+
+9] Parity (Number of Pregnancies):
+
+Increased parity may influence long-term health, particularly in women, affecting BMI, diabetes risk, etc.
+
+10] Smoking Status:
+
+Non-Smoker: Lower risk. Smoker: Higher risk of cardiovascular and respiratory diseases.
+
+11] Physical Activity Level:
+
+Active: Regular exercise; lower risk. Sedentary: Lack of physical activity; higher risk.
+
+General Risk Prediction Guidelines
+
+1] Low Risk:
+
+All parameters fall within the normal range. Physically active, non-smoker, normal BMI, and no other significant health conditions.
+
+2] Moderate Risk:
+
+One or two parameters slightly deviate from normal (e.g., pre-diabetes, slightly elevated BP). Lifestyle factors such as occasional smoking or irregular physical activity.
+
+3] High Risk:
+
+Multiple parameters significantly deviate from normal (e.g., high BP, diabetes, obesity, smoking). Presence of chronic conditions or a history of cardiovascular diseases. Risk Level Decision Tree
+
+A simple framework for risk prediction:
+
+Check Critical Values:
+
+If SystolicBP ≥140, DiastolicBP ≥90, or BS ≥126 → High Risk. If HeartRate >100 bpm or BMI ≥30 → Consider Moderate/High Risk. Lifestyle Factors:
+
+Smoking or sedentary behavior → Upgrade risk level by one category. Combine Factors:
+
+Multiple moderate deviations (e.g., pre-diabetes + elevated BP) → High Risk.
