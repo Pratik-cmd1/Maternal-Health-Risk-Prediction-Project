@@ -1,7 +1,6 @@
-Maternal Health Risk Prediction Project
-https://maternal-health-risk-prediction-project.streamlit.app/
 
-[User Interface ](https://www.canva.com/design/DAGZMOClS6c/DlSEyB_YOpJEpaIyLywzqA/view?utm_content=DAGZMOClS6c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbb411db70e)
+[Maternal Health Risk Prediction Project](https://maternal-health-risk-prediction-project.streamlit.app/)
+
 
 
 Introduction
