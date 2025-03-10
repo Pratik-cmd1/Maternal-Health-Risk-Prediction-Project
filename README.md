@@ -4,8 +4,6 @@
 ![User Interface First Page](/Banking%20Data%20Analysis%20Using%20SQL%20Frant%20Page.png)
 
 
-
-
 Introduction
 
 Maternal health is a crucial aspect of healthcare that significantly impacts both mother and child. With advancements in artificial intelligence and machine learning, predicting maternal health risks has become more efficient, leading to better preventive measures and improved healthcare outcomes. The Maternal Health Risk Prediction Project leverages data science to assess the risk levels of expectant mothers based on key health parameters.
