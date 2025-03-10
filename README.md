@@ -75,7 +75,7 @@ Recall – Ability to identify all actual positive cases.
 
 F1-Score – Harmonic mean of precision and recall for balanced performance.
 
-After hyperparameter tuning, the Random Forest Classifier and XGBoost delivered the highest accuracy, making them the preferred models for deployment.
+After hyperparameter tuning, the Random Forest Classifier delivered the highest accuracy, making them the preferred models for deployment.
 
 Deployment with Streamlit
 
