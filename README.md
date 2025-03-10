@@ -3,7 +3,7 @@
 
 ![User Interface First Page](https://github.com/Pratik-cmd1/Maternal-Health-Risk-Prediction-Project/blob/main/User%20Interface%201.png)
 
-![User Interface Second Page](https://github.com/Pratik-cmd1/Maternal-Health-Risk-Prediction-Project/blob/main/User%20Interface%201.png)
+![User Interface Second Page](https://github.com/Pratik-cmd1/Maternal-Health-Risk-Prediction-Project/blob/main/User%20Interface%202.png)
 
 
 Introduction
